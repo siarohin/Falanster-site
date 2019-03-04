@@ -343,6 +343,11 @@
 
 
 @media screen and (max-width: 1079px) {
+	.banner__photo::after {
+		top: calc(100vh - 67px);
+		height: calc(25vh + 3px);
+	}
+
 	.banner__heading {
 		font-size: 90px;
 		line-height: 1.1em;
