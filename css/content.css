@@ -343,11 +343,16 @@
 
 
 @media screen and (max-width: 1079px) {
+	.banner__photo {
+		height: 125vh;
+	}
+
 	.banner__photo::before {
 		height: 100vh;
 	}
 
 	.banner__photo::after {
+		height: calc(25vh + 1px);
 		top: 100vh;
 	}
 
@@ -365,7 +370,6 @@
 	.banner__status {
 		margin: 0;
 		right: 0;
-		top: calc(100vh - 100px);
 		width: 50%;
 		height: 100px;
 		font-size: 30px;
